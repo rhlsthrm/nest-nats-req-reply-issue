@@ -7,13 +7,13 @@ $ docker pull nats:latest
 $ docker run -p 4222:4222 -ti nats:latest -V
 ```
 
-- Run Nest app
+- Run Nest app in separate window
 ```bash
 $ npm i
 $ npm start
 ```
 
-- Run test script
+- Run test script in separate window
 ```bash
 # install ts-node globally if it's not already
 $ npm i ts-node -g
