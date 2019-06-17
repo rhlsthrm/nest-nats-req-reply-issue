@@ -17,7 +17,7 @@ $ npm start
 ```bash
 # install ts-node globally if it's not already
 $ npm i ts-node -g
-$ ts-node test-nats.ts
+$ ts-node test-nats-request.ts
 ```
 
 - Monitor log output on NATS server to see that the correct subscriptions are created. Monitor the Nest app logs to see that it gets into an infinite loop.
