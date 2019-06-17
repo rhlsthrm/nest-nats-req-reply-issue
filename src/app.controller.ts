@@ -12,6 +12,7 @@ export class AppController {
 
   @MessagePattern({ cmd: 'hello' })
   getHello(data: any) {
+    // this logs correct data input
     console.log('data: ', data);
     return this.appService.getHello();
   }
