@@ -6,9 +6,9 @@ async function start() {
   });
 
   const msg = await nc.request(
-    JSON.stringify({ cmd: 'hello' }),
+    'hello.world',
     5000,
-    JSON.stringify({ data: 'me' }),
+    JSON.stringify({ data: 'me', id: 'myid' }),
   );
 
   // never gets logged when using nest to reply
